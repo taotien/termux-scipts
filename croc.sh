@@ -8,4 +8,7 @@ PAKE=$(termux-dialog -t "croc PAKE" | jq -r .text)
 cd ~/storage/downloads/croc
 #replace #$PAKE or uncomment
 croc --yes $PAKE
+
+termux-notification "Files croc'd"
+
 exit 0
