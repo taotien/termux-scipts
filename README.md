@@ -6,7 +6,7 @@ All scripts work with termux version 0.75.
 
 ## Dependencies
 
-pkg install jq termux-api
+`pkg install jq termux-api`
 
 -jq
 -termux-api
