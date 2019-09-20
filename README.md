@@ -1,6 +1,6 @@
 # termux-scipts
 
-A collection of scripts used for termux on Android
+A collection of scripts used for Termux on Android
 
 All scripts work with termux version 0.75.
 
