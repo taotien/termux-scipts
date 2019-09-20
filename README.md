@@ -8,8 +8,9 @@ All scripts work with termux version 0.75.
 
 `pkg install jq termux-api`
 
--jq
--termux-api
+- jq
+
+- termux-api
 
 ## ytdl_mp3-mp4.sh
 
