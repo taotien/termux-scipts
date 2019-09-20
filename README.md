@@ -29,4 +29,4 @@ chmod +x ytdl_mp3-mp4.sh
 
 ## croc.sh
 
-Uses @schollz's great `croc` tool to download files to `~/storage/downloads/croc` with predetermined or user-input code.
+Uses @schollz's great `croc` tool to send files to `~/storage/downloads/croc` with predetermined or user-input code.
