@@ -14,13 +14,11 @@ All scripts work with termux version 0.75.
 
 ## ytdl_mp3-mp4.sh
 
-Prompts user to youtube-dl a file as MP3 or MP4, then runs youtube-dl using copied link.
-
-Setup storage permissions by running `termux-setup-storage`.
-
+Prompts user to youtube-dl a file as MP3 or MP4, then runs youtube-dl using copied link. 
+Setup storage permissions by running `termux-setup-storage`. 
 You may want to have FFMPEG available as well: `pkg install ffmpeg`.
 
-Download by running 
+Download by running:
 
 ```
 curl -L https://raw.githubusercontent.com/taotien/termux-scipts/master/ytdl_mp3-mp4.sh
