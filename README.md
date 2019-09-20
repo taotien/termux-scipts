@@ -11,4 +11,9 @@ Setup storage permissions by running `termux-setup-storage`.
 
 You may want to have FFMPEG available as well: `pkg install ffmpeg`.
 
-Download by running `curl -L https://raw.githubusercontent.com/taotien/termux-scipts/master/ytdl_mp3-mp4.sh`
+Download by running 
+
+```
+curl -L https://raw.githubusercontent.com/taotien/termux-scipts/master/ytdl_mp3-mp4.sh
+chmod +x ytdl_mp3-mp4.sh
+```
