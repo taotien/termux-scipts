@@ -9,6 +9,6 @@ cd ~/storage/downloads/croc
 #replace #$PAKE or uncomment
 croc --yes $PAKE
 
-termux-notification "Files croc'd"
+termux-notification -c "Files croc'd"
 
 exit 0
