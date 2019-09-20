@@ -1,11 +1,19 @@
 # termux-scipts
+
 A collection of scripts used for termux on Android
 
-## ytdl_mp3-mp4
+All scripts work with termux version 0.75.
+
+## Dependencies
+
+pkg install jq termux-api
+
+-jq
+-termux-api
+
+## ytdl_mp3-mp4.sh
 
 Prompts user to youtube-dl a file as MP3 or MP4, then runs youtube-dl using copied link.
-
-Depends on jq and termux-api. Run `pkg install jq termux-api` . Works with termux version 0.75.
 
 Setup storage permissions by running `termux-setup-storage`.
 
@@ -17,3 +25,7 @@ Download by running
 curl -L https://raw.githubusercontent.com/taotien/termux-scipts/master/ytdl_mp3-mp4.sh
 chmod +x ytdl_mp3-mp4.sh
 ```
+
+## croc.sh
+
+Uses @schollz's great `croc` tool to download files to `~/storage/downloads/croc` with predetermined or user-input code.
