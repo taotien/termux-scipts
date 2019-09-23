@@ -28,3 +28,12 @@ chmod +x ytdl_mp3-mp4.sh
 ## croc.sh
 
 Uses @schollz's great [croc](https://github.com/schollz/croc) tool to send files to `~/storage/downloads/croc` with predetermined or user-input code.
+
+## Troubleshooting
+
+If your termux doesn't like the script, like spitting a bad interpreter error or something, try running 
+
+`pkg install -y proot && termux-chroot`
+
+Also my git files might have line endings mangled. nano will tell you the file is using the DOS format. To fix this you can run 
+`dos2unix #replace with filename`
